@@ -1,3 +1,15 @@
 .spacesection {
     padding: 20px;
 }
+
+.introduction {
+    padding: 120px;
+}
+
+.cardsec {
+    text-align: center;
+}
+
+#logocards {
+    text-align: left;
+}
