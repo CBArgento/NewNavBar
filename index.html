@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Permanent+Marker|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Permanent+Marker|Roboto&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">FSWDR</a>
+        <a class="navbar-brand" href="#topicards">FSWDR</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -53,10 +54,10 @@
                     <a class="nav-link" href="#section9">AJAX</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#section10">FIREBASE</a>
+                    <a class="nav-link" href="#section8">FIREBASE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#section11">NODE</a>
+                    <a class="nav-link" href="#section9">NODE</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#section12">CONSTRUCTORS</a>
@@ -83,348 +84,293 @@
         </div>
     </nav>
 
-    <!--Introduction-->
+    <!--INTRODUCTION SECTION HERE-->
+
     <div class="introduction">
-    <div class="containter">
-        <div class="row">
-            <div class="col-8">
-                <p style="font-size: 48px; font-family: 'Archivo Black', sans-serif;">FSWDR, THE PLACE WHERE YOU CAN FIND EVERYTHING YOU NEED TO BECOME A FULL STACK WEB DEVELOPER </p> 
-                <br >
-                <h4 style="color: gray;">Browse through the page and find videos and additional resources to help you become a Full Stack Web
-                    Developer.</h4>
-                <br />
-                <a href="#topicards" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Documentation</a>
-            </div>
-            <div class="col-4">
-                <img src="logos.JPG" alt="all logos">
+        <div class="containter">
+            <div class="row">
+                <div class="col-8">
+                    <p style="font-size: 48px; font-family: 'Archivo Black', sans-serif;">FSWDR, THE PLACE WHERE YOU CAN
+                        FIND MANY RESOURCES TO HELP YOU BECOME A FULL-STACK WEB DEVELOPER </p>
+                    <br>
+                    <h4 style="color: gray; word-wrap: break-word;">Browse through the page and find videos and additional resources from all over the Web.</h4>
+                    <br />
+                    <a id="button" href="#topicards" class="btn btn-primary btn-lg active" role="button"
+                        aria-pressed="true">Documentation</a>
+                </div>
+                <div class="col-4">
+                    <img src="logos.JPG" alt="all logos">
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="spacesection"></div>
-<!--Cards Section-->
-<div id="topicards" class="spacesection"></div>
-<div class="cardsec">
-<p style="font-size: 48px; font-family: 'Archivo Black', sans-serif;">The FSWDR Resources</p> 
-<p >Find tutorials and answers quicker with FSWDR.</p>
-<br>
-<div id="logocards" class="container">
-    <div class="row">
-      <div class="col-sm">
-        <div class="card mb-3" style="max-width: 440px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">HTML</h5>
-                  <p class="card-text">HTML Tutorials.</p>
+    <div class="spacesection"></div>
+    <!--Cards Section-->
+    <div id="topicards" class="spacesection"></div>
+    <div class="cardsec">
+        <p style="font-size: 48px; font-family: 'Archivo Black', sans-serif;">The FSWDR Resources</p>
+        <p>Find tutorials and answers quicker with FSWDR.</p>
+        <br>
+        <div id="logocards" class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card mb-3" style="max-width: 440px;">
+                        <div class="row no-gutters" id="cardshadow">
+                            <div class="col-md-4">
+                                <img id="logoimg" src="imgs/VSLogo.png" class="card-img" alt="html logo"
+                                    style="width: 80px;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="#section1">Visual Studio Code</a></h5>
+                                    <p class="card-text">VSC Tutorials.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-      </div>
-      <div class="col-sm">
-        <div class="card mb-3" style="max-width: 440px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">HTML</h5>
-                  <p class="card-text">HTML Tutorials.</p>
+                <div class="col-sm">
+                    <div class="card mb-3" style="max-width: 440px;">
+                        <div class="row no-gutters" id="cardshadow">
+                            <div class="col-md-4">
+                                <img id="logoimg" src="imgs/git logo.png" class="card-img" alt="html logo"
+                                    style="width: 80px;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="#section2">GitBash</a></h5>
+                                    <p class="card-text">GitBash Tutorials.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-      </div>
-      <div class="col-sm">
-        <div class="card mb-3" style="max-width: 440px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">HTML</h5>
-                  <p class="card-text">HTML Tutorials.</p>
+                <div class="col-sm">
+                    <div class="card mb-3" style="max-width: 440px;">
+                        <div class="row no-gutters" id="cardshadow">
+                            <div class="col-md-4">
+                                <img id="logoimg" src="imgs/html logo.png" class="card-img" alt="html logo"
+                                    style="width: 80px;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="#section3">HTML</a></h5>
+                                    <p class="card-text">HTML Tutorials.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-      </div>
-      </div>
-      
-      </div>
+
+        </div>
     </div>
     <br>
-    <div id="logocards" class="container" >
-        <div class="row">
-          <div class="col-sm">
-            <div class="card mb-3" style="max-width: 440px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;" class="hoverable">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">HTML</h5>
-                      <p class="card-text">HTML Tutorials.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <div class="col-sm">
-            <div class="card mb-3" style="max-width: 440px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">HTML</h5>
-                      <p class="card-text">HTML Tutorials.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <div class="col-sm">
-            <div class="card mb-3" style="max-width: 440px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">HTML</h5>
-                      <p class="card-text">HTML Tutorials.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-          </div>
-          </div>
-        </div>
-        <br>
     <div id="logocards" class="container">
         <div class="row">
-          <div class="col-sm">
-            <div class="card mb-3" style="max-width: 440px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">HTML</h5>
-                      <p class="card-text">HTML Tutorials.</p>
+            <div class="col-sm">
+                <div class="card mb-3" style="max-width: 440px;">
+                    <div class="row no-gutters" id="cardshadow">
+                        <div class="col-md-4">
+                            <img id="logoimg" src="imgs/csslogo.png" class="card-img" alt="html logo"
+                                style="width: 80px;" class="hoverable">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#section4">CSS</a></h5>
+                                <p class="card-text">CSS Tutorials.</p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-          </div>
-          <div class="col-sm">
-            <div class="card mb-3" style="max-width: 440px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">HTML</h5>
-                      <p class="card-text">HTML Tutorials.</p>
+            </div>
+            <div class="col-sm">
+                <div class="card mb-3" style="max-width: 440px;">
+                    <div class="row no-gutters" id="cardshadow">
+                        <div class="col-md-4">
+                            <img id="logoimg" src="imgs/bootstrap-logo.png" class="card-img" alt="html logo"
+                                style="width: 80px;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#section5">Bootstrap</a></h5>
+                                <p class="card-text">Bootstrap Tutorials.</p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-          </div>
-          <div class="col-sm">
-            <div class="card mb-3" style="max-width: 440px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">HTML</h5>
-                      <p class="card-text">HTML Tutorials.</p>
+            </div>
+            <div class="col-sm">
+                <div class="card mb-3" style="max-width: 440px;">
+                    <div class="row no-gutters" id="cardshadow">
+                        <div class="col-md-4">
+                            <img id="logoimg" src="imgs/jslogo.png" class="card-img" alt="html logo"
+                                style="width: 80px;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#section6">JavaScript</a></h5>
+                                <p class="card-text">JavaScript Tutorials.</p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-          </div>
-          </div>
-          </div>
+            </div>
         </div>
-        <br>
+    </div>
+    </div>
+    <br>
     <div id="logocards" class="container">
         <div class="row">
-          <div class="col-sm">
-            <div class="card mb-3" style="max-width: 440px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">HTML</h5>
-                      <p class="card-text">HTML Tutorials.</p>
+            <div class="col-sm">
+                <div class="card mb-3" style="max-width: 440px;">
+                    <div class="row no-gutters" id="cardshadow">
+                        <div class="col-md-4">
+                            <img id="logoimg" src="imgs/jquery logo.jpg" class="card-img" alt="html logo"
+                                style="width: 80px;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#section7">jQuery</a></h5>
+                                <p class="card-text">jQuery Tutorials.</p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-          </div>
-          <div class="col-sm">
-            <div class="card mb-3" style="max-width: 440px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">HTML</h5>
-                      <p class="card-text">HTML Tutorials.</p>
+            </div>
+            <div class="col-sm">
+                <div class="card mb-3" style="max-width: 440px;">
+                    <div class="row no-gutters" id="cardshadow">
+                        <div class="col-md-4">
+                            <img id="logoimg" src="imgs/firebase logo.jpg" class="card-img" alt="html logo"
+                                style="width: 80px;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#section8">Firebase</a></h5>
+                                <p class="card-text">Firebase Tutorials.</p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-          </div>
-          <div class="col-sm">
-            <div class="card mb-3" style="max-width: 440px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">HTML</h5>
-                      <p class="card-text">HTML Tutorials.</p>
+            </div>
+            <div class="col-sm">
+                <div class="card mb-3" style="max-width: 440px;">
+                    <div class="row no-gutters" id="cardshadow">
+                        <div class="col-md-4">
+                            <img id="logoimg" src="imgs/node logo.jpg" class="card-img" alt="html logo"
+                                style="width: 80px;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#section9">Node</a></h5>
+                                <p class="card-text">Node Tutorials.</p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-          </div>
-          </div>
-          </div>
+            </div>
         </div>
-        <br>
+    </div>
+    </div>
+    <br>
     <div id="logocards" class="container">
         <div class="row">
-          <div class="col-sm">
-            <div class="card mb-3" style="max-width: 440px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">HTML</h5>
-                      <p class="card-text">HTML Tutorials.</p>
+            <div class="col-sm">
+                <div class="card mb-3" style="max-width: 440px;">
+                    <div class="row no-gutters" id="cardshadow">
+                        <div class="col-md-4">
+                            <img id="logoimg" src="imgs/mysql logo.jpg" class="card-img" alt="html logo"
+                                style="width: 80px;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#section10">MySQL</a></h5>
+                                <p class="card-text">MySQL Tutorials.</p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-          </div>
-          <div class="col-sm">
-            <div class="card mb-3" style="max-width: 440px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">HTML</h5>
-                      <p class="card-text">HTML Tutorials.</p>
+            </div>
+            <div class="col-sm">
+                <div class="card mb-3" style="max-width: 440px;">
+                    <div class="row no-gutters" id="cardshadow">
+                        <div class="col-md-4">
+                            <img id="logoimg" src="imgs/Sequelize.png" class="card-img" alt="html logo"
+                                style="width: 80px;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#section11">Sequelize</a></h5>
+                                <p class="card-text">Sequelize Tutorials.</p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-          </div>
-          <div class="col-sm">
-            <div class="card mb-3" style="max-width: 440px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">HTML</h5>
-                      <p class="card-text">HTML Tutorials.</p>
+            </div>
+            <div class="col-sm">
+                <div class="card mb-3" style="max-width: 440px;">
+                    <div class="row no-gutters" id="cardshadow">
+                        <div class="col-md-4">
+                            <img id="logoimg" src="imgs/MongoDB1.png" class="card-img" alt="html logo"
+                                style="width: 80px;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#section12">MongoDB</a></h5>
+                                <p class="card-text">MongoDB Tutorials.</p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-          </div>
-          </div>
-          </div>
+            </div>
         </div>
-        <br>
+    </div>
+    </div>
+    <br>
     <div id="logocards" class="container">
         <div class="row">
-          <div class="col-sm">
-            <div class="card mb-3" style="max-width: 440px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">HTML</h5>
-                      <p class="card-text">HTML Tutorials.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <div class="col-sm">
-            <div class="card mb-3" style="max-width: 440px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;" >
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">HTML</h5>
-                      <p class="card-text">HTML Tutorials.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <div class="col-sm">
-            <div class="card mb-3" style="max-width: 440px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="htmllogo.png" class="card-img" alt="html logo" style="width: 80px;">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">HTML</h5>
-                      <p class="card-text">HTML Tutorials.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-          </div>
-          </div>
-        </div>
-    <!--Section 1-->
-    <!--Jumbotron with image-->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4" style="text-align: center;">HTML</h1>
+            <div class="col-sm">
 
-            <img src="htmllogo.png" alt="Smiley face" height="42" width="42"
+            </div>
+            <div class="col-sm">
+                <div class="card mb-3" style="max-width: 440px;">
+                    <div class="row no-gutters" id="cardshadow">
+                        <div class="col-md-4">
+                            <img id="logoimg" src="imgs/React.png" class="card-img" alt="html logo"
+                                style="width: 80px;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#section13">React</a></h5>
+                                <p class="card-text">React Tutorials.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+
+
+    <!--CONTENT SECTION STARTS HERE-->
+
+    <!--Section 1 Visual Studio Code-->
+    <!--Jumbotron with image-->
+    <div id="section1" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4" style="text-align: center;">Visual Studio Code</h1>
+
+            <img src="imgs/VSLogo.png" alt="Smiley face" height="42" width="42"
                 style="display:block; margin-left:auto;  margin-right:auto;">
         </div>
     </div>
-    
+
     <!--Quick links card-->
 
     <div class="card text-center">
@@ -432,107 +378,66 @@
             <h5 class="card-title">Quick Links</h5>
             <p class="card-text">You can find more info, documents and very detailed videos in the buttons below.
             </p>
-            <a href="https://javascript.info/" class="btn btn-primary" target="_blank">JavaScript</a>
-            <a href="https://devdocs.io/javascript/" class="btn btn-success" target="_blank">JavaScript
-                Documents</a>
-            <a href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl" class="btn btn-info"
-                target="_blank">JavaScript Videos</a>
-            <a href="https://www.w3schools.com/js/default.asp" class="btn btn-secondary" target="_blank">Javascript
-                W3Schools</a>
-            <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps" class="btn btn-dark"
-                target="_blank">Moz://a</a>
+            <a href="https://code.visualstudio.com/" class="btn btn-primary" target="_blank">Go to VSC</a>
+            <a href="https://code.visualstudio.com/docs" class="btn btn-success" target="_blank">VSC Documents</a>
+            <a href="https://www.youtube.com/watch?v=3FkWddODLno&list=PLGLfVvz_LVvTr9wMK6f9lTzOzSX6a6Pk-"
+                class="btn btn-info" target="_blank">VSC Videos</a>
         </div>
     </div>
 
     <!--Content-->
     <br />
     <div class="container">
-        <h3>Videos</h3>
-        <p>"JavaScript, often abbreviated as JS, is a high-level, just-in-time compiled, object-oriented programming
-            language that conforms to the ECMAScript specification. JavaScript has curly-bracket syntax, dynamic typing,
-            prototype-based object-orientation, and first-class functions."-Wikipedia</p>
-        <div class="card-deck">
-            <div class="card">
+        <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+        <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25%
+            width.
+            If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+        <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long
+            (for example if it has over 50 links inside of it).</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3FkWddODLno" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br>
+    <div class="container">
+        <h2>More Videos</h2>
+        <br>
+        <div class="container">
+            <div class="card" style="width: 23rem;">
                 <div class="card-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="320" height="215" src="https://www.youtube.com/embed/W6NZfCO5SIk" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                    <h5 class="card-title">JavaScript Tutorial for Beginners</h5>
-                    <p class="card-text">Learn JavaScript in 1 Hour [2019].</p>
+                    <iframe width="320" height="215" src="https://www.youtube.com/embed/u21W_tfPVrY" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h5 class="card-title">Visual Studio Code</h5>
+                    <p class="card-text">Top 10 Pro Tips.</p>
                     <hr>
-                    <a class="btn btn-success" href="https://www.youtube.com/watch?v=W6NZfCO5SIk&feature=emb_title"
-                        role="button" target="_blank">More
-                        videos Here</a>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="320" height="215" src="https://www.youtube.com/embed/xpZLS6R91rQ" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                        content.
-                    </p>
-                    <hr>
-                    <a class="btn btn-success"
-                        href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl" role="button"
-                        target="_blank">More
-                        videos Here</a>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="320" height="215" src="https://www.youtube.com/embed/fGdd9qNwQdQ" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                    <h5 class="card-title">Javascript Tutorial For Beginners</h5>
-                    <p class="card-text">This Javascript Tutorial is designed for beginners.</p>
-                    <hr>
-                    <a class="btn btn-success"
-                        href="https://www.youtube.com/playlist?list=PLoYCgNOIyGACnrXwo5HMCfOH9VT05znGv" role="button"
-                        target="_blank">More
-                        videos Here</a>
+                    <a class="btn btn-success" href="https://www.youtube.com/watch?v=u21W_tfPVrY" role="button"
+                        target="_blank">Watch Video Here</a>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
         </div>
-        <hr>
-        <h3>Addtional Resources</h3>
-        <p>The resources below offer excersices and more videos.</p>
-        <a href="https://javascript30.com/" target="_blank">JavaScript30</a>
         <br>
-        <a href="https://www.codecademy.com/learn/introduction-to-javascript/" target="_blank">JavaScript/CodeCademy</a>
         <br>
-        <a href="https://doc.qt.io/qt-5/qtqml-javascript-functionlist.html" target="_blank">List of JavaScript
-            Objects and Functions</a>
+        <h2>Additional Resources</h2><a
+            href="https://www.syncfusion.com/blogs/post/10-tricks-in-visual-studio-code.aspx" target="_blank">"10 Tricks
+            Every Developer Should Know in Visual Studio Code"</a>
         <br>
-        <a href="https://medium.com/@dannyhuang_75970/8-best-places-to-learn-javascript-2018-updated-free-paid-940eed6b8296"
-            target="_blank">8 best places to learn Javascript (2018 Updated Free & Paid)</a>
+        <a href="https://code.visualstudio.com/docs/getstarted/tips-and-tricks" target="_blanck">"Visual Studio Code
+            Tips
+            and Tricks"</a>
         <br>
-        <a href="https://scrimba.com/g/gintrotojavascript" target="_blank">Introduction to JavaScript (Videos)</a>
-        <hr>
-        <h2>Books</h2>
-        <a href="https://eloquentjavascript.net/Eloquent_JavaScript.pdf" target="_blank">Eloquent JavaScript</a>
-        <div class="space"></div>
+        <br>
+    </div>
     </div>
     </div>
     <div class="spacesection"></div>
 
-    <!--Section 2-->
+    <!--Section 2 GitBash-->
 
     <!--Jumbotron with image-->
     <div id="section2" class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4" style="text-align: center;">HTML</h1>
+            <h1 class="display-4" style="text-align: center;">GitBash</h1>
 
             <img src="htmllogo.png" alt="Smiley face" height="42" width="42"
                 style="display:block; margin-left:auto;  margin-right:auto;">
@@ -545,101 +450,94 @@
             <h5 class="card-title">Quick Links</h5>
             <p class="card-text">You can find more info, documents and very detailed videos in the buttons below.
             </p>
-            <a href="https://javascript.info/" class="btn btn-primary" target="_blank">JavaScript</a>
-            <a href="https://devdocs.io/javascript/" class="btn btn-success" target="_blank">JavaScript
-                Documents</a>
-            <a href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl" class="btn btn-info"
-                target="_blank">JavaScript Videos</a>
-            <a href="https://www.w3schools.com/js/default.asp" class="btn btn-secondary" target="_blank">Javascript
-                W3Schools</a>
-            <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps" class="btn btn-dark"
-                target="_blank">Moz://a</a>
+            <a href="https://gitforwindows.org/" class="btn btn-primary" target="_blank">Go to Git Bash</a>
+            <a href="https://github.com/git-for-windows/git/tree/master/Documentation" class="btn btn-success"
+                target="_blank">Git Bash Documents</a>
+            <a href="https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx" class="btn btn-info"
+                target="_blank">Git Bash Videos</a>
         </div>
     </div>
 
     <!--Content-->
     <br />
     <div class="container">
-        <h3>Videos</h3>
-        <p>"JavaScript, often abbreviated as JS, is a high-level, just-in-time compiled, object-oriented programming
-            language that conforms to the ECMAScript specification. JavaScript has curly-bracket syntax, dynamic typing,
-            prototype-based object-orientation, and first-class functions."-Wikipedia</p>
-        <div class="card-deck">
-            <div class="card">
-                <div class="card-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="320" height="215" src="https://www.youtube.com/embed/W6NZfCO5SIk" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+        <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+        <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25%
+            width.
+            If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+        <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long
+            (for example if it has over 50 links inside of it).</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cEGIFZDyszA" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <hr>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/SWYqp7iY_Tc"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">GitBash Tricks</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <hr>
+                        <a class="btn btn-success" href="https://www.youtube.com/watch?v=SWYqp7iY_Tc&t=1154s"
+                            role="button" target="_blank">Watch Video Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
-                    <h5 class="card-title">JavaScript Tutorial for Beginners</h5>
-                    <p class="card-text">Learn JavaScript in 1 Hour [2019].</p>
-                    <hr>
-                    <a class="btn btn-success" href="https://www.youtube.com/watch?v=W6NZfCO5SIk&feature=emb_title"
-                        role="button" target="_blank">More
-                        videos Here</a>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="320" height="215" src="https://www.youtube.com/embed/xpZLS6R91rQ" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/xuB1Id2Wxak"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">Git & GitHub</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.
+                        </p>
+                        <hr>
+                        <a class="btn btn-success" href="https://youtu.be/xuB1Id2Wxak" role="button"
+                            target="_blank">Watch Video
+                            Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                        content.
-                    </p>
-                    <hr>
-                    <a class="btn btn-success"
-                        href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl" role="button"
-                        target="_blank">More
-                        videos Here</a>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="320" height="215" src="https://www.youtube.com/embed/fGdd9qNwQdQ" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/AzfVDEBn9hw"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">Git Commands</h5>
+                        <p class="card-text">Git Commands with examples.</p>
+                        <br>
+                        <hr>
+                        <a class="btn btn-success" href="https://www.youtube.com/watch?v=AzfVDEBn9hw" role="button"
+                            target="_blank">Watch video Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
-                    <h5 class="card-title">Javascript Tutorial For Beginners</h5>
-                    <p class="card-text">This Javascript Tutorial is designed for beginners.</p>
-                    <hr>
-                    <a class="btn btn-success"
-                        href="https://www.youtube.com/playlist?list=PLoYCgNOIyGACnrXwo5HMCfOH9VT05znGv" role="button"
-                        target="_blank">More
-                        videos Here</a>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
         </div>
-        <hr>
-        <h3>Addtional Resources</h3>
-        <p>The resources below offer excersices and more videos.</p>
-        <a href="https://javascript30.com/" target="_blank">JavaScript30</a>
         <br>
-        <a href="https://www.codecademy.com/learn/introduction-to-javascript/" target="_blank">JavaScript/CodeCademy</a>
+        <h2>Additional Resourches</h2>
+        <a href="https://git-scm.com/doc">GitBash Documentation</a>
         <br>
-        <a href="https://doc.qt.io/qt-5/qtqml-javascript-functionlist.html" target="_blank">List of JavaScript
-            Objects and Functions</a>
-        <br>
-        <a href="https://medium.com/@dannyhuang_75970/8-best-places-to-learn-javascript-2018-updated-free-paid-940eed6b8296"
-            target="_blank">8 best places to learn Javascript (2018 Updated Free & Paid)</a>
-        <br>
-        <a href="https://scrimba.com/g/gintrotojavascript" target="_blank">Introduction to JavaScript (Videos)</a>
-        <hr>
-        <h2>Books</h2>
-        <a href="https://eloquentjavascript.net/Eloquent_JavaScript.pdf" target="_blank">Eloquent JavaScript</a>
+        <a href="https://git-scm.com/doc/ext">GitBash Resources</a>
         <div class="space"></div>
     </div>
 
     <div class="spacesection"></div>
-    <!--Section 3-->
+
+    <!--Section 3 HTML-->
 
     <!--Jumbotron with image-->
     <div id="section3" class="jumbotron jumbotron-fluid">
@@ -657,6 +555,349 @@
             <h5 class="card-title">Quick Links</h5>
             <p class="card-text">You can find more info, documents and very detailed videos in the buttons below.
             </p>
+            <a href="" class="btn btn-primary" target="_blank">Go to HTML</a>
+            <a href="" class="btn btn-success" target="_blank">HTML Documents</a>
+            <a href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB" class="btn btn-info"
+                target="_blank">HTML Videos</a>
+            <a href="https://www.w3schools.com/html/default.asp" class="btn btn-secondary" target="_blank">HTML
+                W3Schools</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML" class="btn btn-dark"
+                target="_blank">Moz://a</a>
+        </div>
+    </div>
+
+    <!--Content-->
+    <br />
+    <div class="container">
+        <h3>Videos</h3>
+        <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25%
+            width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+        <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too
+            long (for example if it has over 50 links inside of it).</p>
+        <hr>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="260" height="215" src="https://www.youtube.com/embed/UB1O30fR-EE"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">HTML Crash Course</h5>
+                        <p class="card-text">For Absolute Beginners
+                            content.</p>
+                        <hr>
+                        <a class="btn btn-success" href="https://www.youtube.com/watch?v=UB1O30fR-EE&feature=emb_title"
+                            role="button" target="_blank">More
+                            videos Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/MW4OXdzU2Mg"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">HTML and CSS</h5>
+                        <p class="card-text">HTML and CSS Tutorial For Beginner.
+                        </p>
+                        <hr>
+                        <a class="btn btn-success"
+                            href="https://www.youtube.com/playlist?list=PLS1QulWo1RIbPrLaiosApdbbTwk-xMlIa"
+                            role="button" target="_blank">More
+                            videos Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/dD2EISBDjWM"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">HTML Tutorial</h5>
+                        <p class="card-text">HTML Tutorial for Beginners.</p>
+                        <hr>
+                        <a class="btn btn-success"
+                            href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB"
+                            role="button" target="_blank">More
+                            videos Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <Br>
+    <br>
+
+    <!--ADDITIONAL RESOURCES-->
+    <div class="container">
+        <h3>Addtional Resources</h3>
+        <p>The resources below offer excersices and more videos.</p>
+        <a href="https://www.creativebloq.com/advice/5-of-the-best-resources-for-learning-html-and-css"
+            target="_blank">"9
+            of the best resources for learning HTML and CSS"</a>
+        <br>
+        <a href="https://blog.teamtreehouse.com/23-essential-html-5-resources" target="_blank">"23 Essential HTML 5
+            Resources"</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=xE7VOZbHhFY" target="_blank">"How to Write Better HTML and CSS"</a>
+    </div>
+    </div>
+    </div>
+
+    <div class="spacesection"></div>
+
+    <!--Section 4 CSS-->
+
+    <!--Jumbotron with image-->
+    <div id="section4" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4" style="text-align: center;">CSS</h1>
+
+            <img src="htmllogo.png" alt="Smiley face" height="42" width="42"
+                style="display:block; margin-left:auto;  margin-right:auto;">
+        </div>
+    </div>
+    <!--Quick links card-->
+
+    <div class="card text-center">
+        <div class="card-body">
+            <h5 class="card-title">Quick Links</h5>
+            <p class="card-text">You can find more info, documents and very detailed videos in the buttons below.
+            </p>
+            <a href="" class="btn btn-primary" target="_blank">Go to CSS</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" class="btn btn-success" target="_blank">CSS
+                Documents</a>
+            <a href="https://www.youtube.com/watch?v=I9XRrlOOazo&list=PL4cUxeGkcC9gQeDH6xYhmO-db2mhoTSrT"
+                class="btn btn-info" target="_blank">CSS
+                Videos</a>
+            <a href="https://www.w3schools.com/css/default.asp" class="btn btn-secondary" target="_blank">CSS
+                W3Schools</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" class="btn btn-dark" target="_blank">Moz://a</a>
+        </div>
+    </div>
+
+    <!--Content-->
+    <br />
+    <div class="container">
+        <h3>Videos</h3>
+        <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25%
+            width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+        <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too
+            long
+            (for example if it has over 50 links inside of it).</p>
+
+        <hr>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/1Rs2ND1ryYc"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">CSS Tutorial - Zero to Hero (Complete Course)</h5>
+                        <p class="card-text">6 hrs 18 mins 37 secs</p>
+                        <hr>
+                        <a class="btn btn-success" href="https://www.youtube.com/watch?v=1Rs2ND1ryYc" role="button"
+                            target="_blank">More
+                            videos Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/qKoajPPWpmo"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">CSS Tutorial for Beginners - 01 - Introduction to CSS</h5>
+                        <p class="card-text">84 videos</p>
+                        <hr>
+                        <a class="btn btn-success"
+                            href="https://www.youtube.com/watch?v=qKoajPPWpmo&list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C"
+                            role="button" target="_blank">More
+                            videos Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/I9XRrlOOazo"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">CSS Tutorial</h5>
+                        <p class="card-text">css tutorial for Beginners - Ninjas.</p>
+                        <hr>
+                        <a class="btn btn-success" href="https://youtu.be/I9XRrlOOazo" role="button"
+                            target="_blank">Watch videos Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h3>Addtional Resources</h3>
+        <p>The resources below offer excersices and more videos.</p>
+        <a href="https://www.codecademy.com/learn/learn-css" target="_blank">CodeCademy</a>
+        <br>
+        <a href="https://www.freecodecamp.org/learn/responsive-web-design/basic-css/" target="_blank">freeCodeCamp</a>
+        <br>
+    </div>
+    </div>
+
+    </div>
+
+    <div class="spacesection"></div>
+
+    <!--Section 5 BOOTSTRAP-->
+
+    <!--Jumbotron with image-->
+    <div id="section5" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4" style="text-align: center;">Bootstrap</h1>
+
+            <img src="htmllogo.png" alt="Smiley face" height="42" width="42"
+                style="display:block; margin-left:auto;  margin-right:auto;">
+        </div>
+    </div>
+    <!--Quick links card-->
+
+    <div class="card text-center">
+        <div class="card-body">
+            <h5 class="card-title">Quick Links</h5>
+            <p class="card-text">You can find more info, documents and very detailed videos in the buttons below.
+            </p>
+            <a href="https://getbootstrap.com/" class="btn btn-primary" target="_blank">Go to Bootstrap</a>
+            <a href="" class="btn btn-success" target="_blank">Bootstrap Documents</a>
+            <a href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/search?query=bootstrap"
+                class="btn btn-info" target="_blank">Bootstrap Videos</a>
+            <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp" class="btn btn-secondary"
+                target="_blank">Bootstrap W3Schools</a>
+        </div>
+    </div>
+
+    <!--Content-->
+    <br />
+    <div class="container">
+        <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+        <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25%
+            width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+        <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long
+            (for example if it has over 50 links inside of it).</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZfRn9VJzdGA" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <hr>
+        <br>
+        <h3>Videos</h3>
+        <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25%
+            width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+        <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too
+            long (for example if it has over 50 links inside of it).</p>
+        <br>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/9cKsq14Kfsw"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">Bootstrap Website</h5>
+                        <p class="card-text">Responsive Bootstrap Website Start To Finish with Bootstrap 4, HTML5 &
+                            CSS3.</p>
+                        <hr>
+                        <a class="btn btn-success" href="https://youtu.be/9cKsq14Kfsw" role="button"
+                            target="_blank">Watch video Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/QAgrHLtG1Yk"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">Bootstrap Tutorial</h5>
+                        <p class="card-text">Bootstrap 4 Tutorial #1.
+                        </p>
+                        <hr>
+                        <a class="btn btn-success"
+                            href="https://www.youtube.com/watch?v=QAgrHLtG1Yk&list=PL4cUxeGkcC9jE_cGvLLC60C_PeF_24pvv"
+                            role="button" target="_blank">Watch Video Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/tLANGA8f6qI"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">Free Template Examples</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <hr>
+                        <a class="btn btn-success" href="https://www.youtube.com/watch?v=tLANGA8f6qI" role="button"
+                            target="_blank">Watch Video Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="additional">
+            <h3>More Videos</h3>
+            <p>Build A Responsive Bootstrap Website A Full Screen Image Slider using Bootstrap 4, HTML5 & CSS3</p><a
+                href="https://www.youtube.com/watch?v=Thw33qJ5DXo">Watch Here</a>
+        </div>
+        <br>
+    </div>
+
+    <div class="spacesection"></div>
+
+    <!--Section 6 JAVASCRIPT-->
+
+    <!--Jumbotron with image-->
+    <div id="section6" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4" style="text-align: center;">Javascript</h1>
+
+            <img src="htmllogo.png" alt="Smiley face" height="42" width="42"
+                style="display:block; margin-left:auto;  margin-right:auto;">
+        </div>
+    </div>
+    <!--Quick links card-->
+
+    <div class="card text-center">
+        <div class="card-body">
+            <h5 class="card-title">Quick Links</h5>
+            <p class="card-text">You can find more info, documents and very detailed videos in the buttons below.
+            </p>
             <a href="https://javascript.info/" class="btn btn-primary" target="_blank">JavaScript</a>
             <a href="https://devdocs.io/javascript/" class="btn btn-success" target="_blank">JavaScript
                 Documents</a>
@@ -676,81 +917,710 @@
         <p>"JavaScript, often abbreviated as JS, is a high-level, just-in-time compiled, object-oriented programming
             language that conforms to the ECMAScript specification. JavaScript has curly-bracket syntax, dynamic typing,
             prototype-based object-orientation, and first-class functions."-Wikipedia</p>
-        <div class="card-deck">
-            <div class="card">
-                <div class="card-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="320" height="215" src="https://www.youtube.com/embed/W6NZfCO5SIk" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+
+        <hr>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/W6NZfCO5SIk"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">JavaScript Tutorial for Beginners</h5>
+                        <p class="card-text">Learn JavaScript in 1 Hour [2019].</p>
+                        <hr>
+                        <a class="btn btn-success" href="https://www.youtube.com/watch?v=W6NZfCO5SIk&feature=emb_title"
+                            role="button" target="_blank">More
+                            videos Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
-                    <h5 class="card-title">JavaScript Tutorial for Beginners</h5>
-                    <p class="card-text">Learn JavaScript in 1 Hour [2019].</p>
-                    <hr>
-                    <a class="btn btn-success" href="https://www.youtube.com/watch?v=W6NZfCO5SIk&feature=emb_title"
-                        role="button" target="_blank">More
-                        videos Here</a>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/xpZLS6R91rQ"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.
+                        </p>
+                        <hr>
+                        <a class="btn btn-success"
+                            href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl"
+                            role="button" target="_blank">More
+                            videos Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/fGdd9qNwQdQ"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">Javascript Tutorial For Beginners</h5>
+                        <p class="card-text">This Javascript Tutorial is designed for beginners.</p>
+                        <hr>
+                        <a class="btn btn-success"
+                            href="https://www.youtube.com/playlist?list=PLoYCgNOIyGACnrXwo5HMCfOH9VT05znGv"
+                            role="button" target="_blank">More
+                            videos Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="320" height="215" src="https://www.youtube.com/embed/xpZLS6R91rQ" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+            <hr>
+            <h3>Addtional Resources</h3>
+            <p>The resources below offer excersices and more videos.</p>
+            <a href="https://javascript30.com/" target="_blank">JavaScript30</a>
+            <br>
+            <a href="https://www.codecademy.com/learn/introduction-to-javascript/"
+                target="_blank">JavaScript/CodeCademy</a>
+            <br>
+            <a href="https://doc.qt.io/qt-5/qtqml-javascript-functionlist.html" target="_blank">List of JavaScript
+                Objects and Functions</a>
+            <br>
+            <a href="https://medium.com/@dannyhuang_75970/8-best-places-to-learn-javascript-2018-updated-free-paid-940eed6b8296"
+                target="_blank">8 best places to learn Javascript (2018 Updated Free & Paid)</a>
+            <br>
+            <a href="https://scrimba.com/g/gintrotojavascript" target="_blank">Introduction to JavaScript (Videos)</a>
+            <hr>
+            <h2>Books</h2>
+            <a href="https://eloquentjavascript.net/Eloquent_JavaScript.pdf" target="_blank">Eloquent JavaScript</a>
+            <div class="space"></div>
+        </div>
+    </div>
+
+
+    </div>
+
+    <div class="spacesection"></div>
+
+    <!--Section 7 JQUERY-->
+
+    <!--Jumbotron with image-->
+    <div id="section7" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4" style="text-align: center;">jQuery</h1>
+
+            <img src="imgs/jquery logo.jpg" alt="Smiley face" height="42" width="42"
+                style="display:block; margin-left:auto;  margin-right:auto;">
+        </div>
+    </div>
+    <!--Quick links card-->
+
+    <div class="card text-center">
+        <div class="card-body">
+            <h5 class="card-title">Quick Links</h5>
+            <p class="card-text">You can find more info, documents and very detailed videos in the buttons below.
+            </p>
+            <a href="" class="btn btn-primary" target="_blank">Go to jQuery</a>
+            <a href="" class="btn btn-success" target="_blank">jQuery Documents</a>
+            <a href="" class="btn btn-info" target="_blank">jQuery Videos</a>
+            <a href="https://www.w3schools.com/jquery/" class="btn btn-secondary" target="_blank">jQuery
+                W3Schools</a>
+        </div>
+    </div>
+
+    <!--Content-->
+    <br />
+    <div class="container">
+        <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+        <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25%
+            width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+        <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too
+            long (for example if it has over 50 links inside of it).</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BWXggB-T1jQ" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <hr>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/R9GYRBDqxI8"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <br>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <hr>
+                        <a class="btn btn-success"
+                            href="https://www.youtube.com/watch?v=R9GYRBDqxI8&list=PLsrZV8shpwjNuvhvotOuzRCQGcqscCekJ"
+                            role="button" target="_blank">More
+                            videos Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                        content.
-                    </p>
-                    <hr>
-                    <a class="btn btn-success"
-                        href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl" role="button"
-                        target="_blank">More
-                        videos Here</a>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="320" height="215" src="https://www.youtube.com/embed/fGdd9qNwQdQ" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/w-7RQ46RgxU"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <br>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.
+                        </p>
+                        <hr>
+                        <a class="btn btn-success"
+                            href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp"
+                            role="button" target="_blank">More
+                            videos Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
-                    <h5 class="card-title">Javascript Tutorial For Beginners</h5>
-                    <p class="card-text">This Javascript Tutorial is designed for beginners.</p>
-                    <hr>
-                    <a class="btn btn-success"
-                        href="https://www.youtube.com/playlist?list=PLoYCgNOIyGACnrXwo5HMCfOH9VT05znGv" role="button"
-                        target="_blank">More
-                        videos Here</a>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="320" height="215" src="https://www.youtube.com/embed/65a5QQ3ZR2g"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <br>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <hr>
+                        <a class="btn btn-success"
+                            href="https://www.youtube.com/watch?v=65a5QQ3ZR2g&list=PL55RiY5tL51oGJorjEgl6NVeDbx_fO5jR"
+                            role="button" target="_blank">More
+                            videos Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
                 </div>
             </div>
         </div>
         <hr>
         <h3>Addtional Resources</h3>
         <p>The resources below offer excersices and more videos.</p>
-        <a href="https://javascript30.com/" target="_blank">JavaScript30</a>
+        <a href="https://css-tricks.com/lodge/learn-jquery/" target="_blank">Learn JQuery from scratch</a>
         <br>
-        <a href="https://www.codecademy.com/learn/introduction-to-javascript/" target="_blank">JavaScript/CodeCademy</a>
-        <br>
-        <a href="https://doc.qt.io/qt-5/qtqml-javascript-functionlist.html" target="_blank">List of JavaScript
-            Objects and Functions</a>
-        <br>
-        <a href="https://medium.com/@dannyhuang_75970/8-best-places-to-learn-javascript-2018-updated-free-paid-940eed6b8296"
-            target="_blank">8 best places to learn Javascript (2018 Updated Free & Paid)</a>
-        <br>
-        <a href="https://scrimba.com/g/gintrotojavascript" target="_blank">Introduction to JavaScript (Videos)</a>
-        <hr>
-        <h2>Books</h2>
-        <a href="https://eloquentjavascript.net/Eloquent_JavaScript.pdf" target="_blank">Eloquent JavaScript</a>
-        <div class="space"></div>
+    </div>
     </div>
 
+    </div>
 
+    <div class="spacesection"></div>
+    <!--Section 8 FIREBASE-->
+
+    <!--Jumbotron with image-->
+    <div id="section8" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4" style="text-align: center;">Firebase</h1>
+
+            <img src="imgs/firebase logo.jpg" alt="Smiley face" height="42" width="42"
+                style="display:block; margin-left:auto;  margin-right:auto;">
+        </div>
+    </div>
+    <!--Quick links card-->
+
+    <div class="card text-center">
+        <div class="card-body">
+            <h5 class="card-title">Quick Links</h5>
+            <p class="card-text">You can find more info, documents and very detailed videos in the buttons below.
+            </p>
+            <a href="" class="btn btn-primary" target="_blank">Go to Firebase</a>
+            <a href="" class="btn btn-success" target="_blank">Firebase Documents</a>
+            <a href="" class="btn btn-info" target="_blank">Firebase Videos</a>
+        </div>
+    </div>
+
+    <!--Content-->
+    <br />
+    <div class="container">
+        <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+        <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25%
+            width.
+            If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+        <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long
+            (for example if it has over 50 links inside of it).</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jsRVHeQd5kU" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+    <div class="spacesection"></div>
+    <!--Section 9 NODE-->
+
+    <!--Jumbotron with image-->
+    <div id="section9" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4" style="text-align: center;">Node</h1>
+
+            <img src="imgs/node logo.jpg" alt="Smiley face" height="42" width="42"
+                style="display:block; margin-left:auto;  margin-right:auto;">
+        </div>
+    </div>
+    <!--Quick links card-->
+
+    <div class="card text-center">
+        <div class="card-body">
+            <h5 class="card-title">Quick Links</h5>
+            <p class="card-text">You can find more info, documents and very detailed videos in the buttons below.
+            </p>
+            <a href="https://nodejs.org/en/" class="btn btn-primary" target="_blank">Go to Node.js</a>
+            <a href="https://nodejs.org/en/docs/" class="btn btn-success" target="_blank">Node Documents</a>
+            <a href="https://www.youtube.com/playlist?list=PL55RiY5tL51oGJorjEgl6NVeDbx_fO5jR&ref=hackr.io"
+                class="btn btn-info" target="_blank">Node Videos</a>
+            <a href="https://www.w3schools.com/nodejs/default.asp" class="btn btn-secondary" target="_blank">Node
+                W3Schools</a>
+        </div>
+    </div>
+
+    <!--Content-->
+    <br />
+    <div class="container">
+        <h3>Videos</h3>
+            <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25%
+                width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+            <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too
+                long (for example if it has over 50 links inside of it).</p>
+            <div class="container">
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="320" height="215" src="https://www.youtube.com/embed/R9GYRBDqxI8"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <hr>
+                            <a class="btn btn-success"
+                                href="https://www.youtube.com/watch?v=R9GYRBDqxI8&list=PLsrZV8shpwjNuvhvotOuzRCQGcqscCekJ"
+                                role="button" target="_blank">More
+                                videos Here</a>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="320" height="215" src="https://www.youtube.com/embed/w-7RQ46RgxU"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.
+                            </p>
+                            <hr>
+                            <a class="btn btn-success"
+                                href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp"
+                                role="button" target="_blank">More
+                                videos Here</a>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="320" height="215" src="https://www.youtube.com/embed/65a5QQ3ZR2g"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <hr>
+                            <a class="btn btn-success"
+                                href="https://www.youtube.com/watch?v=65a5QQ3ZR2g&list=PL55RiY5tL51oGJorjEgl6NVeDbx_fO5jR"
+                                role="button" target="_blank">More
+                                videos Here</a>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                    </div>
+
+                    <div class="spacesection"></div>
+                    <!--Section 10-->
+
+                    <!--Jumbotron with image-->
+                    <div id="section10" class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <h1 class="display-4" style="text-align: center;">HTML</h1>
+
+                            <img src="htmllogo.png" alt="Smiley face" height="42" width="42"
+                                style="display:block; margin-left:auto;  margin-right:auto;">
+                        </div>
+                    </div>
+                    <!--Quick links card-->
+
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Quick Links</h5>
+                            <p class="card-text">You can find more info, documents and very detailed videos in the
+                                buttons below.
+                            </p>
+                            <a href="https://javascript.info/" class="btn btn-primary" target="_blank">JavaScript</a>
+                            <a href="https://devdocs.io/javascript/" class="btn btn-success" target="_blank">JavaScript
+                                Documents</a>
+                            <a href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl"
+                                class="btn btn-info" target="_blank">JavaScript Videos</a>
+                            <a href="https://www.w3schools.com/js/default.asp" class="btn btn-secondary"
+                                target="_blank">Javascript
+                                W3Schools</a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps"
+                                class="btn btn-dark" target="_blank">Moz://a</a>
+                        </div>
+                    </div>
+
+                    <!--Content-->
+                    <br />
+
+                </div>
+
+                <div class="spacesection"></div>
+                <!--Section 11-->
+
+                <!--Jumbotron with image-->
+                <div id="section11" class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4" style="text-align: center;">HTML</h1>
+
+                        <img src="htmllogo.png" alt="Smiley face" height="42" width="42"
+                            style="display:block; margin-left:auto;  margin-right:auto;">
+                    </div>
+                </div>
+                <!--Quick links card-->
+
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Quick Links</h5>
+                        <p class="card-text">You can find more info, documents and very detailed videos in the buttons
+                            below.
+                        </p>
+                        <a href="https://javascript.info/" class="btn btn-primary" target="_blank">JavaScript</a>
+                        <a href="https://devdocs.io/javascript/" class="btn btn-success" target="_blank">JavaScript
+                            Documents</a>
+                        <a href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl"
+                            class="btn btn-info" target="_blank">JavaScript Videos</a>
+                        <a href="https://www.w3schools.com/js/default.asp" class="btn btn-secondary"
+                            target="_blank">Javascript
+                            W3Schools</a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps"
+                            class="btn btn-dark" target="_blank">Moz://a</a>
+                    </div>
+                </div>
+
+                <!--Content-->
+                <br />
+
+            </div>
+
+            <div class="spacesection"></div>
+            <!--Section 12-->
+
+            <!--Jumbotron with image-->
+            <div id="section12" class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4" style="text-align: center;">HTML</h1>
+
+                    <img src="htmllogo.png" alt="Smiley face" height="42" width="42"
+                        style="display:block; margin-left:auto;  margin-right:auto;">
+                </div>
+            </div>
+            <!--Quick links card-->
+
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Quick Links</h5>
+                    <p class="card-text">You can find more info, documents and very detailed videos in the buttons
+                        below.
+                    </p>
+                    <a href="https://javascript.info/" class="btn btn-primary" target="_blank">JavaScript</a>
+                    <a href="https://devdocs.io/javascript/" class="btn btn-success" target="_blank">JavaScript
+                        Documents</a>
+                    <a href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl"
+                        class="btn btn-info" target="_blank">JavaScript Videos</a>
+                    <a href="https://www.w3schools.com/js/default.asp" class="btn btn-secondary"
+                        target="_blank">Javascript
+                        W3Schools</a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps" class="btn btn-dark"
+                        target="_blank">Moz://a</a>
+                </div>
+            </div>
+
+            <!--Content-->
+            <br />
+
+        </div>
+
+        <div class="spacesection"></div>
+        <!--Section 13-->
+
+        <!--Jumbotron with image-->
+        <div id="section13" class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4" style="text-align: center;">HTML</h1>
+
+                <img src="htmllogo.png" alt="Smiley face" height="42" width="42"
+                    style="display:block; margin-left:auto;  margin-right:auto;">
+            </div>
+        </div>
+        <!--Quick links card-->
+
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Quick Links</h5>
+                <p class="card-text">You can find more info, documents and very detailed videos in the buttons below.
+                </p>
+                <a href="https://javascript.info/" class="btn btn-primary" target="_blank">JavaScript</a>
+                <a href="https://devdocs.io/javascript/" class="btn btn-success" target="_blank">JavaScript
+                    Documents</a>
+                <a href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl" class="btn btn-info"
+                    target="_blank">JavaScript Videos</a>
+                <a href="https://www.w3schools.com/js/default.asp" class="btn btn-secondary" target="_blank">Javascript
+                    W3Schools</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps" class="btn btn-dark"
+                    target="_blank">Moz://a</a>
+            </div>
+        </div>
+
+        <!--Content-->
+        <br />
+
+    </div>
+
+    <div class="spacesection"></div>
+    <!--Section 14-->
+
+    <!--Jumbotron with image-->
+    <div id="section14" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4" style="text-align: center;">HTML</h1>
+
+            <img src="htmllogo.png" alt="Smiley face" height="42" width="42"
+                style="display:block; margin-left:auto;  margin-right:auto;">
+        </div>
+    </div>
+    <!--Quick links card-->
+
+    <div class="card text-center">
+        <div class="card-body">
+            <h5 class="card-title">Quick Links</h5>
+            <p class="card-text">You can find more info, documents and very detailed videos in the buttons below.
+            </p>
+            <a href="https://javascript.info/" class="btn btn-primary" target="_blank">JavaScript</a>
+            <a href="https://devdocs.io/javascript/" class="btn btn-success" target="_blank">JavaScript
+                Documents</a>
+            <a href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl" class="btn btn-info"
+                target="_blank">JavaScript Videos</a>
+            <a href="https://www.w3schools.com/js/default.asp" class="btn btn-secondary" target="_blank">Javascript
+                W3Schools</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps" class="btn btn-dark"
+                target="_blank">Moz://a</a>
+        </div>
+    </div>
+
+    <!--Content-->
+    <br />
+
+    </div>
+
+    <div class="spacesection"></div>
+    <!--Section 15-->
+
+    <!--Jumbotron with image-->
+    <div id="section15" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4" style="text-align: center;">HTML</h1>
+
+            <img src="htmllogo.png" alt="Smiley face" height="42" width="42"
+                style="display:block; margin-left:auto;  margin-right:auto;">
+        </div>
+    </div>
+    <!--Quick links card-->
+
+    <div class="card text-center">
+        <div class="card-body">
+            <h5 class="card-title">Quick Links</h5>
+            <p class="card-text">You can find more info, documents and very detailed videos in the buttons below.
+            </p>
+            <a href="https://javascript.info/" class="btn btn-primary" target="_blank">JavaScript</a>
+            <a href="https://devdocs.io/javascript/" class="btn btn-success" target="_blank">JavaScript
+                Documents</a>
+            <a href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl" class="btn btn-info"
+                target="_blank">JavaScript Videos</a>
+            <a href="https://www.w3schools.com/js/default.asp" class="btn btn-secondary" target="_blank">Javascript
+                W3Schools</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps" class="btn btn-dark"
+                target="_blank">Moz://a</a>
+        </div>
+    </div>
+
+    <!--Content-->
+    <br />
+
+    </div>
+
+    <div class="spacesection"></div>
+    <!--Section 16-->
+
+    <!--Jumbotron with image-->
+    <div id="section16" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4" style="text-align: center;">HTML</h1>
+
+            <img src="htmllogo.png" alt="Smiley face" height="42" width="42"
+                style="display:block; margin-left:auto;  margin-right:auto;">
+        </div>
+    </div>
+    <!--Quick links card-->
+
+    <div class="card text-center">
+        <div class="card-body">
+            <h5 class="card-title">Quick Links</h5>
+            <p class="card-text">You can find more info, documents and very detailed videos in the buttons below.
+            </p>
+            <a href="https://javascript.info/" class="btn btn-primary" target="_blank">JavaScript</a>
+            <a href="https://devdocs.io/javascript/" class="btn btn-success" target="_blank">JavaScript
+                Documents</a>
+            <a href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl" class="btn btn-info"
+                target="_blank">JavaScript Videos</a>
+            <a href="https://www.w3schools.com/js/default.asp" class="btn btn-secondary" target="_blank">Javascript
+                W3Schools</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps" class="btn btn-dark"
+                target="_blank">Moz://a</a>
+        </div>
+    </div>
+
+    <!--Content-->
+    <br />
+
+    </div>
+
+    <div class="spacesection"></div>
+    <!--Section 17-->
+
+    <!--Jumbotron with image-->
+    <div id="section19" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4" style="text-align: center;">HTML</h1>
+
+            <img src="htmllogo.png" alt="Smiley face" height="42" width="42"
+                style="display:block; margin-left:auto;  margin-right:auto;">
+        </div>
+    </div>
+    <!--Quick links card-->
+
+    <div class="card text-center">
+        <div class="card-body">
+            <h5 class="card-title">Quick Links</h5>
+            <p class="card-text">You can find more info, documents and very detailed videos in the buttons below.
+            </p>
+            <a href="https://javascript.info/" class="btn btn-primary" target="_blank">JavaScript</a>
+            <a href="https://devdocs.io/javascript/" class="btn btn-success" target="_blank">JavaScript
+                Documents</a>
+            <a href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl" class="btn btn-info"
+                target="_blank">JavaScript Videos</a>
+            <a href="https://www.w3schools.com/js/default.asp" class="btn btn-secondary" target="_blank">Javascript
+                W3Schools</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps" class="btn btn-dark"
+                target="_blank">Moz://a</a>
+        </div>
+    </div>
+
+    <!--Content-->
+    <br />
+
+    </div>
+
+    <div class="spacesection"></div>
+    <!--Section 18-->
+
+    <!--Jumbotron with image-->
+    <div id="section18" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4" style="text-align: center;">HTML</h1>
+
+            <img src="htmllogo.png" alt="Smiley face" height="42" width="42"
+                style="display:block; margin-left:auto;  margin-right:auto;">
+        </div>
+    </div>
+    <!--Quick links card-->
+
+    <div class="card text-center">
+        <div class="card-body">
+            <h5 class="card-title">Quick Links</h5>
+            <p class="card-text">You can find more info, documents and very detailed videos in the buttons below.
+            </p>
+            <a href="https://javascript.info/" class="btn btn-primary" target="_blank">JavaScript</a>
+            <a href="https://devdocs.io/javascript/" class="btn btn-success" target="_blank">JavaScript
+                Documents</a>
+            <a href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl" class="btn btn-info"
+                target="_blank">JavaScript Videos</a>
+            <a href="https://www.w3schools.com/js/default.asp" class="btn btn-secondary" target="_blank">Javascript
+                W3Schools</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps" class="btn btn-dark"
+                target="_blank">Moz://a</a>
+        </div>
+    </div>
+
+    <!--Content-->
+    <br />
+
+    </div>
+
+    <div class="spacesection"></div>
+    <!--Section 19-->
+
+    <!--Jumbotron with image-->
+    <div id="section19" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4" style="text-align: center;">HTML</h1>
+
+            <img src="htmllogo.png" alt="Smiley face" height="42" width="42"
+                style="display:block; margin-left:auto;  margin-right:auto;">
+        </div>
+    </div>
+    <!--Quick links card-->
+
+    <div class="card text-center">
+        <div class="card-body">
+            <h5 class="card-title">Quick Links</h5>
+            <p class="card-text">You can find more info, documents and very detailed videos in the buttons below.
+            </p>
+            <a href="https://javascript.info/" class="btn btn-primary" target="_blank">JavaScript</a>
+            <a href="https://devdocs.io/javascript/" class="btn btn-success" target="_blank">JavaScript
+                Documents</a>
+            <a href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl" class="btn btn-info"
+                target="_blank">JavaScript Videos</a>
+            <a href="https://www.w3schools.com/js/default.asp" class="btn btn-secondary" target="_blank">Javascript
+                W3Schools</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps" class="btn btn-dark"
+                target="_blank">Moz://a</a>
+        </div>
+    </div>
+
+    <!--Content-->
+    <br />
+
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
